@@ -1,0 +1,16 @@
+1. Gerer le placement des livres dans la bonne librairie
+    1.1
+    a) Créer un composant à part pour un livre
+    b) le livre aura un état qui va contenir une propriete shelf(pour le shelf où le livre doit effectivement être placé) 
+        il y aura aussi une props à part qui va se servir de cet état là.
+    c) On aura une methode changeShelf() qui va nous permettre d'appeler setState pour modifier l'endroit où un livre est censé se positionner
+    d) Créer un composant liste de livre qui va contenir les composant livres
+    e) le composant listeLivre contiendra un état pour connaître dans quelle librairie le livre doit effectivement se trouver avec la props qui y est associé
+    1.2
+    a)étant donné que chaque livre conserve les options du select propre à son shelf. Le select sera un composant qui va être compris dans book
+    b) la valeur par défaut du select s'adaptera donc en fonction du shelf
+2. Gerer les recherches
+    a) faudra dans une premier temps tester le fonctionnement de la requête de recherche de BooksAPI 
+
+3. Gestion des liens( voir le cour pour comprendre unpeu comment react-router fonctionne)
+    a)  
